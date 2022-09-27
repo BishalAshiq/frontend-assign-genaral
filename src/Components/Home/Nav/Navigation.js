@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
@@ -28,7 +29,7 @@ const Navigation = () => {
               
             </Nav>
             <Form className="d-flex">
-              <Button className="me-4" variant="outline-info">Create Account</Button>
+            <NavLink to="/activePageOne"><Button variant="outline-info" style={{marginRight: 50}}>Create Activity</Button></NavLink>
               <Button style={{marginRight: 200}} variant="primary">Login</Button>
             </Form>
           </Navbar.Collapse>
