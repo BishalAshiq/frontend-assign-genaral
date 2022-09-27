@@ -25,7 +25,6 @@ const Navigation = () => {
               <Nav.Link href="#action1">Downloads</Nav.Link>
               <Nav.Link href="#action2">Blog</Nav.Link>
               <Nav.Link href="#action2">Support</Nav.Link>
-              <Nav.Link href="#action2">Link</Nav.Link>
               
             </Nav>
             <Form className="d-flex">

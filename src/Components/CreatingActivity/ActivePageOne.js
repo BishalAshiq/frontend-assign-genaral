@@ -11,7 +11,9 @@ const ActivePageOne = () => {
         <NavLink to="/">
           <ArrowLeft color="black" size={40} />
         </NavLink>
+        <NavLink to="/">
         <Button variant="dark">Save</Button>
+        </NavLink>
       </div>
       <div className="name-area">
         <h4 className="act-h4">Aron Power</h4>
