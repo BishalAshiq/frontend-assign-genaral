@@ -9,9 +9,6 @@ function App() {
         <Routes>
         <Route path="/" element={<Home />} />
          <Route path="/activePageOne" element={<ActivePageOne/>} />
-        {/*<Route path="/register" element={<Register />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/appointment" element={<Appointment />} /> */}
         <Route />
       </Routes>
     </div>

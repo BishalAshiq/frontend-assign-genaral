@@ -1,18 +1,18 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import { ArrowLeft, ArrowRightCircleFill } from "react-bootstrap-icons";
 import "./ActivePageOne.css";
 import { NavLink } from "react-router-dom";
+import CapabilitiesInp from "./CapabilitiesInp";
 
 const ActivePageOne = () => {
   return (
     <div className="activePageOne">
       <div className="activePage-header">
         <NavLink to="/">
-          <ArrowLeft color="black" size={40} />
+        <i className="fa-solid fa-xmark" style={{ fontSize: 40, color: "black"}}></i>
         </NavLink>
         <NavLink to="/">
-        <Button variant="dark">Save</Button>
+          <Button variant="dark">Save</Button>
         </NavLink>
       </div>
       <div className="name-area">
@@ -29,13 +29,8 @@ const ActivePageOne = () => {
       <div>
         <h6 className="cap-h6">CAPABILITIES</h6>
       </div>
-      <div className="cap">
-        <input 
-           type="text" 
-           placeholder="Enter Capability..."
-           className="text-cap"/>
-        <ArrowRightCircleFill style={{marginTop: 30}} size={40}/>
-        
+      <div>
+        <CapabilitiesInp />
       </div>
     </div>
   );
